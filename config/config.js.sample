@@ -45,9 +45,9 @@ var config = {
 			module: "currentweather",
 			position: "top_right",
 			config: {
-				location: "New York",
-				locationID: "",  //ID from http://www.openweathermap.org/help/city_list.txt
-				appid: "YOUR_OPENWEATHER_API_KEY"
+				location: "Stockholm",
+				locationID: "2673730",  //ID from http://www.openweathermap.org/help/city_list.txt
+				appid: "d20ec97728adbcb318f658ffb411fee2"
 			}
 		},
 		{
@@ -55,9 +55,9 @@ var config = {
 			position: "top_right",
 			header: "Weather Forecast",
 			config: {
-				location: "New York",
-				locationID: "5128581",  //ID from http://www.openweathermap.org/help/city_list.txt
-				appid: "YOUR_OPENWEATHER_API_KEY"
+				location: "Stockholm",
+				locationID: "2673730",  //ID from http://www.openweathermap.org/help/city_list.txt
+				appid: "d20ec97728adbcb318f658ffb411fee2"
 			}
 		},
 		{
@@ -66,8 +66,8 @@ var config = {
 			config: {
 				feeds: [
 					{
-						title: "New York Times",
-						url: "http://www.nytimes.com/services/xml/rss/nyt/HomePage.xml"
+						title: "SVT Nyheter",
+						url: "http://svt.se/nyheter/regionalt/blekingenytt/rss.xml"
 					}
 				],
 				showSourceTitle: true,
